@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обучение криптовалютам</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в мир криптовалют!</h1>
+        <p>Научитесь инвестировать и зарабатывать на криптовалютах с нуля</p>
+        <button onclick="window.location.href='#subscribe'">Зарегистрироваться</button>
+        <button onclick="window.location.href='#about'">Узнать больше</button>
+    </header>
+    <section id="about">
+        <h2>О нас</h2>
+        <p>Мы предлагаем лучшие курсы по криптовалютам, созданные экспертами с многолетним опытом.</p>
+        <p>Наша миссия - помочь вам понять и использовать возможности криптовалют для достижения финансовой независимости.</p>
+    </section>
+    <section id="courses">
+        <h2>Наши курсы</h2>
+        <div class="course">
+            <h3>Начинающим</h3>
+            <p>Основы криптовалют и блокчейна.</p>
+            <button>Подробнее</button>
+        </div>
+        <div class="course">
+            <h3>Продвинутым</h3>
+            <p>Технический анализ и инвестиционные стратегии.</p>
+            <button>Подробнее</button>
+        </div>
+        <div class="course">
+            <h3>Профессионалам</h3>
+            <p>Алгоритмическая торговля и управление портфелем.</p>
+            <button>Подробнее</button>
+        </div>
+    </section>
+    <section id="subscribe">
+        <h2>Подписка</h2>
+        <div class="plan">
+            <h3>Базовый план</h3>
+            <p>Доступ к базовым курсам</p>
+            <p>Цена: 500 рублей/месяц</p>
+            <button>Зарегистрироваться</button>
+        </div>
+        <div class="plan">
+            <h3>Продвинутый план</h3>
+            <p>Доступ ко всем курсам и ежемесячные вебинары</p>
+            <p>Цена: 1000 рублей/месяц</p>
+            <button>Зарегистрироваться</button>
+        </div>
+        <div class="plan">
+            <h3>Премиум план</h3>
+            <p>Доступ ко всем курсам, вебинарам и индивидуальные консультации</p>
+            <p>Цена: 3000 рублей/месяц</p>
+            <button>Зарегистрироваться</button>
+        </div>
+    </section>
+    <footer>
+        <p>Контакты: email@example.com | +7 123 456 78 90</p>
+    </footer>
+</body>
+</html>
